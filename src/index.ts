@@ -1,9 +1,10 @@
-npm install
-
-import "dotenv/config";
+import dotenv from "dotenv";
 import { Client, GatewayIntentBits, Partials } from "discord.js";
-import fs from "fs";
-import path from "path";
+import * as fs from "fs";
+import * as path from "path";
+
+dotenv.config();
+
 
 const TOKEN = process.env.BOT_TOKEN;
 if (!TOKEN) {
