@@ -1,3 +1,5 @@
+npm install
+
 import "dotenv/config";
 import { Client, GatewayIntentBits, Partials } from "discord.js";
 import fs from "fs";
